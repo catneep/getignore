@@ -1,5 +1,4 @@
 # getignore
-
 A lightweight solution to retrieve gitignore templates from [Github's gitignore templates repo](https://github.com/github/gitignore)
 
 ## Installation
@@ -20,8 +19,6 @@ You can build the project from source by following these commands:
     . venv/scripts/activate
     pip install requirements.txt
 
-### Docker
-
 ## Usage
 #### Linux & macOS
     python3 getignore.py -{option} {name}
@@ -33,6 +30,7 @@ Options:
 - **r**: Retrieve from the root of the repo (Used by default)
 - **c**: Retrieve from the *"community"* directory
 - **g**: Retrieve from the *"Global"* directory
+- **l**: Retrieve from local cache (Uses "root" as a remote fallback)
 
 ### Examples
 
