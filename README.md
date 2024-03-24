@@ -38,9 +38,9 @@ Options:
 
         python3 getignore.py python
 
-- C# gitignore template
+- KiCad gitignore template
 
-        python3 getignore.py c#
+        python3 getignore.py kicad
 
 - Fortran gitignore template
 
