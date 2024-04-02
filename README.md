@@ -10,14 +10,14 @@ You can build the project from source by following these commands:
     cd getignore
     python3 -m venv venv
     source venv/bin/activate
-    pip install requirements.txt
+    pip install -r requirements.txt
 
 #### Windows (Powershell)
     git clone https://github.com/catneep/getignore.git
     Set-Location getignore
     py -m venv venv
     . venv/scripts/activate
-    pip install requirements.txt
+    pip install -r requirements.txt
 
 ## Usage
 #### Linux & macOS
