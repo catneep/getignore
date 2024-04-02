@@ -19,6 +19,11 @@ You can build the project from source by following these commands:
     . venv/scripts/activate
     pip install -r requirements.txt
 
+#### (Optional) Build executable
+Run the included build script and add output to your _PATH_
+
+    ./build.ps1
+
 ## Usage
 #### Linux & macOS
     python3 getignore.py -{option} {name}
